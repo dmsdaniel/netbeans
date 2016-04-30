@@ -1,4 +1,4 @@
-package com.daniel.mavenproject1.jpa;
+package com.daniel.mavenproject1.util.jpa;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
@@ -14,7 +14,7 @@ public class EntityManagerProducer {
 	private EntityManagerFactory factory;
 	
 	public EntityManagerProducer() {
-		factory = Persistence.createEntityManagerFactory("PedidoPU");
+                    factory = Persistence.createEntityManagerFactory("PEDIDO");
 	}
 	
 	@Produces @RequestScoped

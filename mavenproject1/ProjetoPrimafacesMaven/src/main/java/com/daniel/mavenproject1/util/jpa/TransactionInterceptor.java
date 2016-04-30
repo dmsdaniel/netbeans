@@ -1,4 +1,4 @@
-package com.daniel.mavenproject1.jpa;
+package com.daniel.mavenproject1.util.jpa;
 
 import java.io.Serializable;
 

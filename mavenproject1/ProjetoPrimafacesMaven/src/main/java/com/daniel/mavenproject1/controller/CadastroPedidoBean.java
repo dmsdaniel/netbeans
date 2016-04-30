@@ -1,4 +1,4 @@
-package controller;
+package com.daniel.mavenproject1.controller;
 
 import java.util.ArrayList;
 import java.util.List;
